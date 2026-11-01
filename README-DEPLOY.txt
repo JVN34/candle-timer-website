@@ -17,7 +17,7 @@ A straightforward option is GitHub Pages:
 2. Create a public repository, for example: candle-timer-website.
 3. Upload the CONTENTS of this folder (index.html, privacy.html, support.html,
    terms.html, acknowledgements.html, styles.css, site-config.js, site.js and
-   assets/). Do not upload just the ZIP file.
+   ). Do not upload just the ZIP file.
 4. In the repository, open Settings → Pages.
 5. Under Build and deployment, choose Deploy from a branch; select main and
    /(root), then Save.
@@ -66,7 +66,15 @@ WHAT IS INCLUDED
 - acknowledgements.html: MIT attribution for Kline Timer
 - site-config.js: support email and App Store product URL settings
 - styles.css / site.js: responsive design and small site behaviours
-- assets/candle-timer-icon.png: app icon from the uploaded project
+- candle-timer-icon.png: app icon from the uploaded project
 
 The website is a supporting compliance asset. It does not itself guarantee App
 Review approval. Ensure the website accurately reflects the submitted build.
+
+ICON UPDATE (1 NOVEMBER 2026)
+The website uses the root-level candle-timer-icon.png for the navigation logo, footer logo,
+browser favicon and Apple touch icon. The supplied 1024x1024 AppIcon-1024.png is
+included at that path. The HTML references include a version query to refresh
+browser caches. When updating an existing GitHub Pages repository, upload and
+commit the complete contents of this folder, choosing to replace existing files.
+Ensure candle-timer-icon.png is uploaded into the repository root, alongside index.html.
