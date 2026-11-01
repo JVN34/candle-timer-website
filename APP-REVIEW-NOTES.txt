@@ -1,0 +1,20 @@
+SUGGESTED APP REVIEW NOTES — CANDLE TIMER (macOS)
+
+Candle Timer is a macOS menu bar countdown utility. It does not have a Dock icon
+or a conventional main window. After launch, look for the Candle Timer status
+item in the macOS menu bar (top-right area) and click it to open the panel.
+
+The panel allows the reviewer to:
+- Select one of 24 candle timeframes (15 seconds to 12 calendar months).
+- View the remaining time to the selected candle close.
+- See the countdown turn red during the final 10 seconds.
+- Optionally enable a local macOS system-sound chime at candle close.
+- Choose the system sound, adjust the clock offset and optionally enable
+  Launch at login through macOS Login Items.
+
+No account or sign-in is required. The app does not connect to the internet,
+retrieve prices, access broker accounts, place trades, or collect personal data.
+Preferences are stored locally on the Mac.
+
+The countdown uses the Mac's system clock and UTC candle boundaries. The app
+cannot verify or synchronise against a third-party chart's own clock.

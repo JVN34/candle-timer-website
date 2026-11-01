@@ -1,0 +1,12 @@
+// Add this inside AboutView.swift's `identity` VStack, directly below the
+// existing "Private by design" Text line. Replace the URL with the real hosted
+// privacy-policy URL before building the App Store version.
+
+if let privacyURL = URL(string: "https://YOUR-PUBLISHED-SITE-URL/privacy.html") {
+    Link(destination: privacyURL) {
+        Label("Privacy Policy", systemImage: "hand.raised")
+            .font(.system(size: 12))
+    }
+}
+
+// AboutView.swift already imports SwiftUI and AppKit, so URL is available.
