@@ -4,7 +4,7 @@
  * Once the app has an App Store product page, paste its full URL into APP_STORE_URL.
  */
 window.CANDLE_TIMER_CONFIG = {
-  supportEmail: "SUPPORT_EMAIL",
+  supportEmail: "proofreading@outlook.com",
   appStoreUrl: "",
   appStoreFallbackUrl: "https://apps.apple.com/gb/mac"
 };
